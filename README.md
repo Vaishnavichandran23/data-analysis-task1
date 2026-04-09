@@ -52,15 +52,11 @@ To perform:
 * Categorized balance into groups
 * Normalized numerical data
 
----
-
 ## 🛠️ Tools & Technologies
 
 * Python
 * Pandas
 * VS Code
-
----
 
 ## 📂 Project Files
 
@@ -70,24 +66,15 @@ To perform:
 * `data_dictionary.md` → Column descriptions
 * `data_issues.md` → Identified data problems
 
----
-
 ## 🚀 Output
 
 A clean and structured dataset ready for analysis and visualization.
 
----
-
 ## 🔗 GitHub Repository
-
-(Add your repo link here)
-
----
+https://github.com/Vaishnavichandran23/data-analysis-task1.git
 
 ## 📌 Conclusion
 
 This task helped me understand the importance of data cleaning and transformation in the data analytics process.
-
----
 
 ## ⭐ Thank You!
