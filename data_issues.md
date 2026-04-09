@@ -1,17 +1,17 @@
 # Data Quality Issues
 
 ## Missing Values
-- minimum_payments has missing values
-- credit_limit has missing values
+- minimum_payments had missing values
+- credit_limit had missing values
 
 ## Duplicates
-- Found 3 duplicate rows
+- Duplicate rows were found and removed
 
 ## Data Types
-- All data types look correct
+- Data types were mostly correct
 
 ## Outliers
-- Some unusually high values in balance column
+- Extreme values found in balance column
 
 ## Summary
-Data requires cleaning before analysis.
+Data was cleaned and transformed successfully.
