@@ -1,8 +1,17 @@
 import pandas as pd
-
+import os
+print(os.getcwd())
 # Load dataset
-df = pd.read_csv("Customer_Data.csv")
-
+df = pd.read_csv(r"C:\Users\kotap\OneDrive\Desktop\project task1\Customer_Data.csv")
+print(df.head())
+print(df.info())
+df.isnull().sum()
+df.duplicated().sum()
+df.describe()
+print(df.dtypes)
+print(df.describe())
+print(df.shape)
+print(df.columns)
 # Clean column names (remove spaces)
 df.columns = df.columns.str.strip()
 
@@ -49,4 +58,4 @@ print("\nMissing values after cleaning:\n", df.isnull().sum())
 # Save cleaned dataset
 df.to_csv("cleaned_data.csv", index=False)
 
-print("\nData Cleaning and Transformation Completed Successfully!")
+print("\nData Cleaning and Transformation Completed Successfully")
